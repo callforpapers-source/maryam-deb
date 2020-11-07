@@ -1,0 +1,20 @@
+Source: maryam
+Section: web
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Uploader: Saeed Dehqan <saeed.dehghan@owasp.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 1.4.8
+Homepage: https://github.com/saeeddhqan/maryam
+Vcs-Browser: https://github.com/saeeddhqan/maryam
+Vcs-Git: https://github.com/saeeddhqan/maryam.git
+Rules-Requires-Root: no
+
+Package: maryam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3
+Description: Open-source Intelligence(OSINT) Framework 
+OWASP Maryam is an Open-source intelligence(OSINT) and Web-based Footprinting
+optional/modular framework based on the Recon-ng core and written in Python. 
+Maryam designed to provide a powerful environment to harvest data from open sources and search
+engines and collect data quickly and thoroughly.

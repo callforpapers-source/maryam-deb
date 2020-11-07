@@ -1,0 +1,5 @@
+lib usr/share/maryam/
+maryam usr/share/maryam/
+templates usr/share/maryam/
+gadgetchains usr/share/maryam/
+debian/helper-script/maryam usr/bin/
